@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 2.3em;
+}
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    text-align: center;
+    
+}
+#A {
+    z-index: 1000;
+}
+#B {
+    top: 50px;
+    left: 50px;
+    z-index: 900;
+
+}
+#C {
+    top: 100px;
+    left: 100px;
+    z-index: 800;
+}
+#D {
+    top: 150px;
+    left: 150px;
+    z-index: 700;
+}
+#E {
+    float: initial;
+    clear: both;
+}
+#F {
+    float: none;
+}
+section {
+    height: 500px;
+    background-color: cadetblue;
+    border: 2px dashed black;
+}
+section > :nth-child(2n) {
+    background-color: black;
+    color: aliceblue;
+    float: right;
+}
+section > :nth-child(2n+1) {
+    background-color: white;
+    float: left;
+        
+}

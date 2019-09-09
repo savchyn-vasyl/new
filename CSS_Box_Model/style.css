@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+/*section {
+    border: 5px solid #000000;
+    border-top: 5px dashed red; 
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+
+}
+span {
+    border: 2px solid black;
+}
+#B {
+    margin-top: 50px;
+}
+#A {
+    visibility: hidden;
+}
+#C {
+    display: none;
+}
+/* CSS triks */
+div > p {
+    background-color: #cca949;
+}
+div > p:hover {
+    font-style: italic;
+}
+a:link {
+    text-decoration: none;
+    cursor: text;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+ul >:nth-child(2n) {
+    background-color: yellow;
+}
+input:focus {
+    background-color: #cca949
+}

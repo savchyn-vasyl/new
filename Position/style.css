@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 50%;
+    margin: 0 auto;
+       
+}
+h1 {
+    text-align: center;
+}
+nav {
+    top:  0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #531644;
+    position: fixed;
+}
+header {
+    margin-top: 50px;
+    height: 100px;
+    background-color: #1c1653;
+}
+section {
+    height: 300px;
+    width: 65%;
+    background-color: aquamarine;
+    float: left;
+}
+aside {
+    height: 300px;
+    width: 35%;
+    background-color: #16531e;
+    float: left;
+}
+footer {
+    height: 100px;
+    background-color: brown;
+}
